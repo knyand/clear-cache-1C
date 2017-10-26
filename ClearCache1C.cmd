@@ -31,7 +31,7 @@ rmdir "%LOCALAPPDATA%\1C\1Cv82" /S /Q
 rmdir "%AppData%\1C\1Cv8" /S /Q
 rmdir "%LOCALAPPDATA%\1C\1Cv8" /S /Q
 echo Ochistka vypolnena!
-pause
+timeout 5
 exit
 
 :cancel
